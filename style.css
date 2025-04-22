@@ -1,16 +1,49 @@
-body {
+* {
 	font-family: arial;
 	margin: 0;
 }
 
-header {
-	display: flex;
+a {
+	color: inherit;
+	text-decoration: none;
+}
 
+h1, h2, li, p {
+	padding: 12px;
+}
+
+header {
 	background: #00689d;
 	color: white;
-
-	justify-content: center;
-	align-items: center;
-	width:100%;
 	height: 20%;
+	text-align: center;
+	text-decoration: none;
+}
+
+header h1 {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.conteudo {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul {
+	list-style-type: none;
+	background-color: #00547f;
+	justify-content: center;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+img {
+	height: 300px
+}
+
+figure h2, figure p {
+	padding-top: 0;
 }
