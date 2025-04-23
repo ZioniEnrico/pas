@@ -3,7 +3,7 @@
 	margin: 0;
 }
 
-body > section {
+body > article {
 	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
@@ -15,7 +15,11 @@ a {
 }
 
 h2, li, p {
-	padding: 12px;
+	padding: 12px
+}
+
+p {
+	padding-top: 0
 }
 
 header {
@@ -26,7 +30,7 @@ header {
 }
 
 header h1 {
-	padding: 24px;
+	padding: 24px
 }
 
 nav {
@@ -50,7 +54,7 @@ nav ul {
 }
 
 .xadrez_imagens > * {
-	flex: auto;
+	flex: auto
 }
 
 .xadrez_imagens a {
