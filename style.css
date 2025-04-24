@@ -3,16 +3,12 @@
 	margin: 0;
 }
 
-body > article {
+body > div {
 	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-a {
-	color: inherit;
-	text-decoration: none;
-}
 
 h2, h3, h4, li, p {
 	padding: 12px
@@ -33,6 +29,11 @@ header h1 {
 	padding: 24px
 }
 
+header a {
+	color: inherit;
+	text-decoration: none;
+}
+
 nav {
 	background-color: #00547f;
 	color: white;
@@ -44,6 +45,19 @@ nav ul {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid gray;
+	max-width: 50%;
+	margin: auto;
+}
+
+footer p {
+	text-align: center;
+	color: grey;
+	padding-top: 16px;
 }
 
 .xadrez_imagens {
