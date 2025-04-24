@@ -107,7 +107,7 @@ nav ul {
     font-family: sans-serif;
     line-height: 1.5;
     text-align: left;
-    margin-left: 0px;
+
     opacity: 0.9;
 
 
@@ -124,7 +124,7 @@ nav ul {
 
 	
 .imagerefd{
-
+    align-items: center;
     width: 91%;
     padding: 20px;
 	height:auto;
