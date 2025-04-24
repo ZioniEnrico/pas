@@ -125,17 +125,15 @@ nav ul {
     border-radius: 10;
 background-color: #c7d5e6;
 width: 50%;
-padding: 20px;
+padding: 10px auto;
 margin: 20px 20px 20px 0;
 
 }
 	
 .imagerefd{
-
-	max-width: 100%;
+    width: 91%;
+    padding: 20px;
+    margin-left: 20px;
 	height:auto;
-	display:block;
-	margin: 0 auto;
-	border-radius:10px;
-	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+	
 }
