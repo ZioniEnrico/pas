@@ -88,7 +88,7 @@ footer p {
 	padding-top: 0;
 	color: white;
 }
-}
+
 /*----> styles_Dione <----*/
 .h2d {
     text-align: center;
@@ -112,7 +112,6 @@ footer p {
 
 .caixa-destaqued {
     background-color: #c7d5e6;
-
     padding: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
@@ -121,14 +120,16 @@ footer p {
     text-align: left;
     opacity: 0.9;
     margin-top: 30px;
+	align-items: center;
     
 
 
 }
 
-.imagerefd{
-    align-items: center;
-    width: 860px;
-    height: auto;
+.imagerefd {
+    
+    width: 100%;
+    height: auto; 
+    max-width: 860px;
 }
 	
