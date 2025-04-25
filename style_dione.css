@@ -91,39 +91,49 @@ footer p {
 
 /*----> styles_Dione <----*/
 .h2d {
+	font-size: 30px;
     text-align: center;
     margin-bottom: 15px; 
     margin-top: 30px;    
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 15px;
 }
 
 .h3d {
+	font-size: 24px;
     margin-bottom: 10px; 
     margin-top: 20px;    
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    padding: 15px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .pd {
-    margin-bottom: 15px; 
-    margin-top: 10px;    
-    margin-left: 40px;
-    margin-right: 40px;
+	color: black;
+	font-size: 16px;
+	padding: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
 }
 
 .caixa-destaqued {
-    background-color: #c7d5e6;
+	
+	background-color: #c7d5e6;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     font-family: sans-serif;
     line-height: 1.5;
     text-align: left;
-    opacity: 0.9;
+    opacity: 1;
     margin-top: 30px;
 	align-items: center;
-    
-
-
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 500px;
+	background-image: url('https://raw.githubusercontent.com/ZioniEnrico/pas/refs/heads/main/Imagens/logo.png');
 }
 
 .imagerefd {
@@ -133,3 +143,16 @@ footer p {
     max-width: 860px;
 }
 	
+.btn a:hover{
+	background-color: #ffffff;
+	color: rgb(24, 60, 219)
+}
+
+.logod{
+	opacity: 9;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 500px;
+	background-image: url('https://raw.githubusercontent.com/ZioniEnrico/pas/refs/heads/main/Imagens/logo.png');
+}
