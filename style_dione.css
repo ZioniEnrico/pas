@@ -147,12 +147,3 @@ footer p {
 	background-color: #ffffff;
 	color: rgb(24, 60, 219)
 }
-
-.logod{
-	opacity: 9;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	background-size: 500px;
-	background-image: url('https://raw.githubusercontent.com/ZioniEnrico/pas/refs/heads/main/Imagens/logo.png');
-}
