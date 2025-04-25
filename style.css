@@ -3,6 +3,16 @@
 	margin: 0;
 }
 
+/* Logo da ONU que roda no fundo
+body {
+	background-image: url('../imagens/logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 25%;
+}
+*/
+
 body > div {
 	max-width: 900px;
 	margin-left: auto;
