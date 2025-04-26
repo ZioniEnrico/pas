@@ -15,7 +15,9 @@ h2, h3, h4, li, p {
 }
 
 p {
-	padding-top: 0
+	padding-top: 0;
+	text-indent: 10px;
+	
 }
 
 header {
@@ -32,11 +34,6 @@ header h1 {
 header a {
 	color: inherit;
 	text-decoration: none;
-}
-
-header a:hover {
-	background-color: #ffffff;
-	color: rgb(24, 60, 219)
 }
 
 nav {
