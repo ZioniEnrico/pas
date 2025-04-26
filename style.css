@@ -3,16 +3,6 @@
 	margin: 0;
 }
 
-/* Logo da ONU que roda no fundo
-body {
-	background-image: url('../imagens/logo.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 25%;
-}
-*/
-
 body > div {
 	max-width: 900px;
 	margin-left: auto;
@@ -42,6 +32,11 @@ header h1 {
 header a {
 	color: inherit;
 	text-decoration: none;
+}
+
+header a:hover {
+	background-color: #ffffff;
+	color: rgb(24, 60, 219)
 }
 
 nav {
@@ -97,4 +92,30 @@ footer p {
 .xadrez_imagens a > section > * {
 	padding-top: 0;
 	color: white;
+}
+
+/* Iniciativas.html */
+
+.caixa {
+	border-radius: 8px;
+	box-shadow: 4px 4px 8px gray;
+	padding: 16px;
+	margin: 16px;
+	/* Logo no fundo e preenchimento */
+	background: url('imagens/logo.png'), #eef7fff0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 25%;
+}
+
+.caixa img {
+	width: 95%;
+	text-align: center;
+	border-radius: 8px;
+	display: block;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	margin-left: auto;
+	margin-right: auto;
 }
