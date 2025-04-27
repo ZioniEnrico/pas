@@ -123,9 +123,7 @@ footer p {
 	flex-direction: row;
 	justify-content: flex-start ;
 	gap: 15px;
-	
-	
-
+                 	
 }
 
 .caixa-icon a{
@@ -133,7 +131,8 @@ footer p {
 }
 
 .caixa-icon img{
-	width: 80px;
+	width: 70%;
 	height: auto;
 	border-radius: 0px;
+	
 }   
