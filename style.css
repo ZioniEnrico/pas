@@ -142,5 +142,13 @@ footer p {
 .hover-opacity:hover{
 	background-image: linear-gradient(to bottom, rgba(245, 245, 220, 0) 0%, rgb(255, 255, 255) 100%);
 	opacity:0.7;
+<<<<<<< HEAD
 	border-radius: 10px;
+=======
+	border-radius: 20px;
+}
+
+.alinhacentro {
+	text-align:center;
+>>>>>>> 8c4db39f519d2a61336e08996fac1b05b8693dae
 }
