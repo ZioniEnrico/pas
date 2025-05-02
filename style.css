@@ -21,14 +21,14 @@ p {
 }
 
 header {
-	background: #00689d;
+	background: #0C6AA0;
 	color: white;
 	height: 20%;
 	text-align: center;
 }
 
 header h1 {
-	padding: 24px
+	padding: 24px;
 }
 
 header a {
