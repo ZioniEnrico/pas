@@ -9,26 +9,41 @@ body > div {
 	margin-right: auto;
 }
 
+body > div > article {
+	border-radius: 8px;
+	box-shadow: 4px 4px 8px gray;
+	padding: 16px;
+	margin: 10px;
+	background: #eef7fff0;
+}
 
-h2, h3, h4, li, p {
+summary {
+	font-weight: bold;
+}
+
+h2, h3, h4, li, p, img, summary {
 	padding: 12px
 }
 
 p {
 	padding-top: 0;
-	text-indent: 10px;
-	
+}
+
+img {
+	box-sizing: border-box;
+	width: 100%;
+	border-radius: 18px;
 }
 
 header {
-	background: #0C6AA0;
+	background: #0c6aa0;
 	color: white;
 	height: 20%;
 	text-align: center;
 }
 
-header h1 {
-	padding: 24px;
+header img {
+	max-width: 900px;
 }
 
 header a {
@@ -47,13 +62,6 @@ nav ul {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-}
-
-hr {
-	border: none;
-	border-top: 1px solid gray;
-	max-width: 50%;
-	margin: auto;
 }
 
 footer p {
@@ -91,64 +99,38 @@ footer p {
 	color: white;
 }
 
-/* Iniciativas.html */
-
-.caixa {
-	border-radius: 8px;
-	box-shadow: 4px 4px 8px gray;
-	padding: 16px;
-	margin: 16px;
-	/* Logo no fundo e preenchimento */
-	background: url('imagens/logo.png'), #eef7fff0;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 25%;
-}
-
-.caixa img {
-	width: 95%;
-	text-align: center;
-	border-radius: 8px;
-	display: block;
-	margin-top: 16px;
-	margin-bottom: 16px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-/* projetos futuros.html */
-
-.caixa-icon{
-	display:flex;
+.icones {
+	display: flex;
+	flex-flow: wrap;
 	align-items: center;
 	flex-direction: row;
 	justify-content: flex-start ;
 	gap: 15px;
-                 	
 }
 
-.caixa-icon a{
-	display: block;
+.icones > a {
+	flex: auto;
 }
 
-.caixa-icon img{
-	width: 70%;
-	height: auto;
-	border-radius: 0px;
-	
-}   
+.icones > a > img {
+	object-fit: contain;
+	height: 64px;
+}
 
-.hover-opacity:hover{
+.icones > a:hover {
 	background-image: linear-gradient(to bottom, rgba(245, 245, 220, 0) 0%, rgb(255, 255, 255) 100%);
-	opacity:0.7;
-<<<<<<< HEAD
+	opacity: 0,7;
 	border-radius: 10px;
-=======
-	border-radius: 20px;
 }
 
-.alinhacentro {
-	text-align:center;
->>>>>>> 8c4db39f519d2a61336e08996fac1b05b8693dae
+.objetivos {
+	display: flex;
+	flex-flow: wrap;
+	gap: 16px;
+}
+
+.objetivos > section {
+	flex: 30%;
+	background-color: #e5f2ff;
+	border-radius: 10px;
 }
