@@ -18,15 +18,18 @@ body > div > article {
 }
 
 summary {
-	font-weight: bold;
+	font-weight: bold
 }
 
 h2, h3, h4, li, p, img, summary {
 	padding: 12px
 }
 
-p {
+article p {
 	padding-top: 0;
+	text-indent: 24px;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 img {
@@ -43,7 +46,7 @@ header {
 }
 
 header img {
-	max-width: 900px;
+	max-width: 900px
 }
 
 header a {
@@ -109,7 +112,7 @@ footer p {
 }
 
 .icones > a {
-	flex: auto;
+	flex: auto
 }
 
 .icones > a > img {
