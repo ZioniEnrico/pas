@@ -137,3 +137,32 @@ footer p {
 	background-color: #e5f2ff;
 	border-radius: 10px;
 }
+
+.objetivos > section > div {
+	display: flex;
+}
+
+.objetivos > section > div > img {
+	width: 100px;
+	height: 100px;
+	margin-top: auto;
+	margin-bottom: auto;
+	border-radius: 18px;
+}
+
+.objetivos > section > section {
+	margin: 8px;
+	padding: 4px;
+	background-color: #f1f8ff;
+	border-radius: 6px;
+}
+
+.objetivos > section > section > h4 {
+	text-align: center
+}
+
+.objetivos > section > section > details {
+	margin: 8px;
+	background-color: #e5f2ff;
+	border-radius: 6px;
+}
