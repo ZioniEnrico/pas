@@ -1,14 +1,10 @@
+/* --- Reset e fonte padrão --- */
 * {
 	font-family: arial;
 	margin: 0;
 }
 
-body > main {
-	max-width: 900px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
+/* --- Estrutura e layout principal --- */
 body > main > article {
 	border-radius: 8px;
 	box-shadow: 4px 4px 8px gray;
@@ -17,6 +13,7 @@ body > main > article {
 	background: #eef7fff0;
 }
 
+/* --- Sumário e tipografia --- */
 summary {
 	font-weight: bold
 }
@@ -25,6 +22,7 @@ h2, h3, h4, li, p, img, summary {
 	padding: 12px
 }
 
+/* --- Parágrafos --- */
 article p {
 	padding-top: 0;
 	text-indent: 24px;
@@ -32,12 +30,14 @@ article p {
 	text-justify: inter-word;
 }
 
+/* --- Imagens gerais --- */
 img {
 	box-sizing: border-box;
 	width: 100%;
 	border-radius: 18px;
 }
 
+/* --- Cabeçalho (header) --- */
 header {
 	background: #0c6aa0;
 	color: white;
@@ -54,6 +54,7 @@ header a {
 	text-decoration: none;
 }
 
+/* --- Navegação (menu) --- */
 nav {
 	background-color: #00547f;
 	color: white;
@@ -67,12 +68,14 @@ nav ul {
 	justify-content: center;
 }
 
+/* --- Rodapé (footer) --- */
 footer p {
 	text-align: center;
 	color: grey;
 	padding-top: 16px;
 }
 
+/* --- Galeria Xadrez de Imagens --- */
 .xadrez_imagens {
 	display: flex;
 	flex-wrap: wrap;
@@ -102,6 +105,7 @@ footer p {
 	color: white;
 }
 
+/* --- Ícones --- */
 .icones {
 	display: flex;
 	flex-flow: wrap;
@@ -126,6 +130,7 @@ footer p {
 	border-radius: 10px;
 }
 
+/* --- Seção de Objetivos --- */
 .objetivos {
 	display: flex;
 	flex-flow: wrap;
@@ -165,4 +170,21 @@ footer p {
 	margin: 8px;
 	background-color: #e5f2ff;
 	border-radius: 6px;
+}
+
+/* --- Classe de ajuste de largura --- */
+.tamanho {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* --- Responsividade --- */
+@media (max-width: 900px) {
+	body > div {
+		padding: 10px;
+	}
+	.icones > a > img {
+		height: 48px;
+	}
 }
