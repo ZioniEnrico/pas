@@ -1,3 +1,8 @@
+/* --- Variável para tamanho máximo da página --- */
+:root {
+	--tamanho-maximo: 900px;
+}
+
 /* --- Reset e fonte padrão --- */
 * {
 	font-family: arial;
@@ -46,7 +51,7 @@ header {
 }
 
 header img {
-	max-width: 900px
+	max-width: var(--tamanho-maximo)
 }
 
 header a {
@@ -137,17 +142,17 @@ footer p {
 	gap: 16px;
 }
 
-.objetivos > section {
+.objetivos > article {
 	flex: 48%;
 	background-color: #e5f2ff;
 	border-radius: 10px;
 }
 
-.objetivos > section > div {
+.objetivos > article > div {
 	display: flex;
 }
 
-.objetivos > section > div > img {
+.objetivos > article > div > img {
 	width: 100px;
 	height: 100px;
 	margin-top: auto;
@@ -155,18 +160,18 @@ footer p {
 	border-radius: 18px;
 }
 
-.objetivos > section > section {
+.objetivos > article > section {
 	margin: 8px;
 	padding: 4px;
 	background-color: #f1f8ff;
 	border-radius: 6px;
 }
 
-.objetivos > section > section > h4 {
+.objetivos > article > section > h4 {
 	text-align: center
 }
 
-.objetivos > section > section > details {
+.objetivos > article > section > details {
 	margin: 8px;
 	background-color: #e5f2ff;
 	border-radius: 6px;
@@ -174,13 +179,13 @@ footer p {
 
 /* --- Classe de ajuste de largura --- */
 .tamanho {
-	max-width: 900px;
+	max-width: var(--tamanho-maximo);
 	margin-left: auto;
 	margin-right: auto;
 }
 
 /* --- Responsividade --- */
-@media (max-width: 900px) {
+@media (max-width: var(--tamanho-maximo)) {
 	body > div {
 		padding: 10px;
 	}
